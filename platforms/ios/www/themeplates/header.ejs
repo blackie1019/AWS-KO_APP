@@ -1,0 +1,34 @@
+<div class="navbar navbar-inverse navbar-fixed-top" ng-controller="HeaderCtrl">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#index"><img src="img/logo.png" /></a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li ng-class="{active:activeNavLI=='/services'}" class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-star-empty"></span>Services <b class="caret"></b></a>
+          <ul class="dropdown-menu" >
+            <ng-navli-services ng-repeat="item in services" item="item"></ng-navli-services>
+          </ul>
+        </li>
+        <li ng-class="{active:activeNavLI=='/keywords'}"><a href="#keywords"><span class="glyphicon glyphicon-book"></span>Keywords</a></li>
+        <li ng-class="{active:activeNavLI=='/showcase'}" class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-file"></span>Showcases <b class="caret"></b></a>
+          <ul class="dropdown-menu" >
+            <ng-navli-showcases ng-repeat="item in showcases" item="item"></ng-navli-showcases>
+          </ul>
+        </li>
+        <li ng-class="{active:activeNavLI=='/whitepapers'}"><a href="#whitepapers"><span class="glyphicon glyphicon-paperclip"></span>Whitepapers</a></li>
+        <li ng-class="{active:activeNavLI=='/sites'}"><a href="#sites"><span class="glyphicon glyphicon-link"></span>Sites</a></li>
+        <li ng-class="{active:activeNavLI=='/others'}"><a href="#others"><span class="glyphicon glyphicon-th"></span>Others</a></li>
+        <li ng-class="{active:activeNavLI=='/author'}"><a href="#author"><span class="glyphicon glyphicon-thumbs-up"></span>Author</a></li>
+      </ul>
+      </div><!--/.navbar-collapse -->
+  </div>
+</div>

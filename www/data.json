@@ -1,0 +1,87 @@
+{
+    "index":{
+        "welcome":"這是我準備AWS考試的一個筆記，分享給同樣要準備考試或是想要重點瞭解AWS服務的大大們，有任何能補充或是該注意的地方請隨時與我連繫，感謝你的幫助！",
+        "updates":[
+            {"time":"2013/9/9","note":"新增Services資料"},        
+            {"time":"2013/9/8","note":"新增Showcases資料"}
+        ]
+    },
+    "services":[
+        {"type":"Compute","items":[
+            {"index":"ec2","name":"Amazon Elastic Compute Cloud (EC2)","intro":"Virtual Servers in the Cloud","url":"http://aws.amazon.com/ec2/"},
+            {"index":"autoscaling","name":"Auto Scaling","intro":"Auto Scaling allows you to automatically scale your Amazon EC2 capacity up or down according to conditions you define.","url":"http://aws.amazon.com/autoscaling/"},
+            {"index":"elb","name":"Elastic Load Balancing","intro":"Elastic Load Balancing automatically distributes incoming application traffic across multiple Amazon EC2 instances.","url":"http://aws.amazon.com/elasticloadbalancing/"},
+            {"index":"emr","name":"Amazon Elastic MapReduce (EMR)","intro":"Amazon Elastic MapReduce is a web service that enables businesses, researchers, data analysts, and developers to easily and cost-effectively process vast amounts of data.","url":"http://aws.amazon.com/elasticmapreduce/"}
+        ]},
+        {"type":"Networking","items":[
+            {"index":"vpc","name":"Amazon Virtual Private Cloud (VPC)","intro":"Amazon Virtual Private Cloud (Amazon VPC) lets you provision a private, isolated section of the Amazon Web Services (AWS) Cloud where you can launch AWS resources in a virtual network that you define. With Amazon VPC, you can define a virtual network topology that closely resembles a traditional network that you might operate in your own datacenter.","url":"http://aws.amazon.com/vpc/"},
+            {"index":"53","name":"Amazon Route 53","intro":"Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service.","url":"http://aws.amazon.com/route53/"},
+            {"index":"dc","name":"AWS Direct Connect","intro":"AWS Direct Connect makes it easy to establish a dedicated network connection from your premise to AWS, which in many cases can reduce your network costs, increase bandwidth throughput, and provide a more consistent network experience than Internet-based connections.","url":"http://aws.amazon.com/directconnect/"}
+        ]},
+        {"type":"Storage&CDN","items":[
+            {"index":"s3","name":"Amazon Simple Storage Service (S3)","intro":"Amazon Simple Storage Service provides a fully redundant data storage infrastructure for storing and retrieving any amount of data, at any time, from anywhere on the Web.","url":"http://aws.amazon.com/s3/"},
+            {"index":"glacier","name":"Amazon Glacier","intro":"Amazon Glacier is an extremely low-cost storage service that provides secure and durable storage for data archiving and backup.","url":"http://aws.amazon.com/glacier/"},
+            {"index":"ebs","name":"Amazon Elastic Block Store (EBS)","intro":"Amazon Elastic Block Store provides block level storage volumes for use with Amazon EC2 instances. Amazon EBS volumes are off-instance storage that persists independently from the life of an instance.","url":"http://aws.amazon.com/ebs/"},
+            {"index":"importexport","name":"AWS Import/Export","intro":"AWS Import/Export accelerates moving large amounts of data into and out of AWS using portable storage devices for transport.","url":"http://aws.amazon.com/importexport/"},
+            {"index":"storagegateway","name":"AWS Storage Gateway","intro":"AWS Storage Gateway is a service connecting an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization’s on-premises IT environment and AWS’s storage infrastructure.","url":"http://aws.amazon.com/storagegateway/"},
+            {"index":"cloudfront","name":"Amazon CloudFront","intro":"Amazon CloudFront is a web service that makes it easy to distribute content with low latency via a global network of edge locations.","url":"http://aws.amazon.com/cloudfront/"}
+        ]},
+        {"type":"Database","items":[
+            {"index":"rds","name":"Amazon Relational Database Service (RDS)","intro":"Amazon Relational Database Service is a web service that makes it easy to set up, operate, and scale a relational database in the cloud.","url":"http://aws.amazon.com/rds/"},
+            {"index":"dynamodb","name":"Amazon DynamoDB","intro":"Amazon DynamoDB is a fully-managed, high performance, NoSQL database service that is easy to set up, operate, and scale.","url":"http://aws.amazon.com/dynamodb/"},
+            {"index":"elasticache","name":"Amazon ElastiCache","intro":"Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud.","url":"http://aws.amazon.com/elasticache/"},
+            {"index":"redshift","name":"Amazon Redshift","intro":"Amazon Redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service in the cloud. Amazon Redshift offers you fast query performance when analyzing virtually any size data set using the same SQL-based tools and business intelligence applications you use today.","url":"http://aws.amazon.com/redshift/"}
+        ]},
+        {"type":"Application Services","items":[
+            {"index":"cloudsearcg","name":"Amazon CloudSearch","intro":"","url":""},
+            {"index":"swf","name":"Amazon Simple Workflow Service (SWF)","intro":"","url":""},
+            {"index":"sqs","name":"Amazon Simple Queue Service (SQS)","intro":"","url":""},
+            {"index":"sns","name":"Amazon Simple Notification Service (SNS)","intro":"","url":""},
+            {"index":"ses","name":"Amazon Simple Email Service (SES)","intro":"","url":""},
+            {"index":"et","name":"Amazon Elastic Transcoder ","intro":"","url":""}
+        ]},
+        {"type":"Deployment & Management","items":[
+            {"index":"iam","name":"AWS Identity and Access Management (IAM)","intro":"","url":""},
+            {"index":"cloudwatch","name":"Amazon CloudWatch","intro":"","url":""},
+            {"index":"beanstalk","name":"AWS Elastic Beanstalk","intro":"","url":""},
+            {"index":"cloudformation","name":"AWS CloudFormation","intro":"","url":""},
+            {"index":"dp","name":"AWS Data Pipeline","intro":"","url":""},
+            {"index":"opsworks","name":"AWS OpsWorks","intro":"","url":""},
+            {"index":"cloudhsm","name":"AWS CloudHSM","intro":"","url":""}
+        ]}
+    ],
+    "keywords":[
+        {"key":"test","value":"test","url":"http://www.google.com"},{"key":"test","value":"test","url":"http://www.google.com"}
+    ],
+    "showcases":[
+        {"name":"01 WEB APPLICATION HOSTING","img":"01_WEB APPLICATION HOSTING.png","type":"single"},
+        {"name":"02 CONTENT & MEDIA SERVING","img":"02_CONTENT & MEDIA SERVING.png","type":"single"},
+        {"name":"03 BATCH PROCESSING","img":"03_BATCH PROCESSING.png","type":"single"},
+        {"name":"04 FAULT TOLERANCE & HIGH AVAILABILITY","img":"04_FAULT TOLERANCE & HIGH AVAILABILITY.png","type":"single"},
+        {"name":"05 LARGE SCALE COMPUTING & HUGE DATA SETS","img":"05_LARGE SCALE COMPUTING & HUGE DATA SETS.png","type":"single"},
+        {"name":"06 ADVERTISEMENT SERVING","img":"06_ADVERTISEMENT SERVING.png","type":"single"},
+        {"name":"07 DISASTER RECOVERY FOR LOCAL APPLICATIONS","img":"07_DISASTER RECOVERY FOR LOCAL APPLICATIONS.png","type":"single"},
+        {"name":"08 FILE SYNCHRONIZATION SERVICE","img":"08_FILE SYNCHRONIZATION SERVICE.png","type":"single"},
+        {"name":"09 MEDIA SHARING","img":"09_MEDIA SHARING.png","type":"single"},
+        {"name":"10 ONLINE GAMES","img":"10_ONLINE GAMES.png","type":"single"},
+        {"name":"11 WEB LOG ANALYSIS","img":"11_WEB LOG ANALYSIS.png","type":"single"},
+        {"name":"12 FINANCIAL SERVICES GRID COMPUTING","img":"12_FINANCIAL SERVICES GRID COMPUTING.png","type":"single"},
+        {"name":"13 E-COMMERCE WEB SITE","img":".png","type":"serial","Parts":
+            [
+                {"name":"Part-1","img":"13_E-COMMERCE WEB SITE.png"},
+                {"name":"Part-2","img":"14_E-COMMERCE WEB SITE_2.png"},
+                {"name":"Part-3","img":"15_E-COMMERCE WEB SITE_3.png"}
+            ]
+        }
+    ],
+    "whitepapers":[
+        {"name":"Overview of AWS Whitepaper","url":"http://media.amazonwebservices.com/AWS_Overview.pdf","type":"pdf"}
+    ],
+    "sites":[
+        {"name":"AWSUGTW","url":"https://www.facebook.com/groups/awsugtw/","type":"fb"},
+        {"name":"AWSUG in Taiwan","url":"http://awsug.tw/","type":"site"}
+    ],
+    "others":[
+        {"name":"AWS認證經驗談","url":"https://speakerdeck.com/jonatw/aws-ren-zheng-jing-yan-fen-xiang","type":"ppt"}
+    ]
+}

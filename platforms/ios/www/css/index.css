@@ -1,0 +1,27 @@
+.div_showcase_img{
+	padding:0px 20px 0px 20px; 
+}
+.showcase_img_s{
+	width: 100%;
+}
+ng-navli-services li,ng-navli-showcases li{
+	white-space: nowrap;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-width: 320px;
+}
+/*
+f7a64d
+f8981d
+e58115
+db7107
+
+*/
+/*@media screen and (max-width: 1200px) {
+	.showcase_img_s{
+	margin-top:15%;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	}
+}*/
