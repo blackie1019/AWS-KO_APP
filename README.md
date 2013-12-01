@@ -1,4 +1,4 @@
-AWSLearnNote
+AWS-KO
 ===============
 AWS Certified Solutions Architect - Associate Level
 準備筆記，包含
